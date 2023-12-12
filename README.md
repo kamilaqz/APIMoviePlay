@@ -1,6 +1,7 @@
 # APIMoviePlay
 MoviePlay é uma API RestFul desenvolvida em Node.js para oferecer funcionalidades relacionadas a usuários, autenticação, criptografia e gerenciamento de conteúdo para uma plataforma de aluguel de filmes. 
 Sua interface é voltada para o usuário, que podem realizar operações básicas de CRUD (Create, Read, Update, Delete) em uma lista de filmes favoritos, além de explorar e comprar filmes.
+---
 
 # Tecnologias Utilizadas
 Node.js
