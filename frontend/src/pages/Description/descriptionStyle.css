@@ -1,0 +1,104 @@
+.moviePlay{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.moviePlay > .moviePlay_text_{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item_logout{
+    margin-left: -15px;
+}
+
+.movie-details{
+    margin-top: 50px;
+}
+
+.movie-poster {
+    float: left;
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 30px;
+    display: block; 
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.movie-details > .movie-title{
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.movie-settings .movie-year{
+    color: gray;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.movie-settings > .movie-category{
+    color: gray;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.movie-details > .movie-synopsis{
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 900px; 
+    overflow: hidden;
+}
+
+.movie-details > .movie-price{
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 60px;
+}
+
+.movie-settings{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 15px;
+}
+
+.icon{
+    margin-left: -65px;
+    margin-top: 5px;
+}
+
+.buttons{
+    margin-top: 10px;
+}
